@@ -1,0 +1,24 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="100.0" minWidth="100.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clientModule.controllers.LogInWindowController">
+    <center>
+        <VBox alignment="CENTER" minHeight="100.0" minWidth="100.0" prefHeight="200.0" prefWidth="100.0" spacing="15.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="enterLabel" text="Вход" VBox.vgrow="ALWAYS">
+                    <font>
+                        <Font name="System Bold" size="28.0" />
+                    </font>
+                </Label>
+                <Label fx:id="loginLabel" text="Логин" />
+                <TextField fx:id="login" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="31.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                <Label fx:id="passwordLabel" text="Пароль" />
+                <PasswordField fx:id="password" maxWidth="-Infinity" />
+                <Button fx:id="enterButton" mnemonicParsing="false" onAction="#enter" prefHeight="31.0" prefWidth="75.0" text="Войти" VBox.vgrow="ALWAYS" />
+                <Button fx:id="back" mnemonicParsing="false" onAction="#back" text="Назад" />
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

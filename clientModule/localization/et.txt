@@ -1,0 +1,99 @@
+language = Eestlane
+
+#Start
+groups = uurimisrühmad
+logInButton = Logi sisse
+registration = registreerimine
+exit = Välju
+vhod = autoriseerimine
+login = Logi sisse
+password = parool
+back = tagasi
+register = registreeru
+
+#commands
+add = Lisa rühm
+history = ajalugu
+removeByFormOfEducation = Eemalda haridusvormi abil
+printUniqueAdmin = Unikaalsed administraatorid
+printShouldBeExpelled = Võlgnikud
+table = tabel
+removeById = Eemalda ID järgi
+clear = selge
+info = teave
+removeLower = Eemalda, kui vähem
+removeGreater = Eemalda, kui rohkem
+executeScript = Käivita skript
+update = Uuenda ID järgi
+visualize = Visualiseerimine
+
+#groupWindow
+nameGroup = Grupi number
+coordinates = Koordinaadid
+group = rühm
+locName = asukoha nimi
+location = asukoht
+nationality = rahvus
+color = juuksevärv
+numberPassport = passi number
+name = nimi
+admin = Administraator
+formOfEducation = Hariduse vorm
+averageMark = Keskmine skoor
+dolgniki = Võlglased
+studentsCount = õpilaste arv
+enter = sisestama
+
+#Table
+sort = sorteeri
+updateTheCell = Valitud lahtri värskendamine
+showAllGroups = Kuva kõik rühmad
+filter = filter
+
+#Server responses
+incorrectID = Vale ID
+notYour = Teistele kasutajatele kuuluvad objektid on kirjutuskaitstud! \ n
+notFound = Kollektsioonis pole ühtegi selle ID-ga rühma!
+empty = kogu on tühi!
+scriptOK = Skript on valmis!
+logOutOK = Välja logitud!
+selectField = Palun valige rühm!
+clearOK = Kogumik on kustutatud!
+addOK = Grupp on edukalt kogusse lisatud!
+infoCommandText1 = selles seansis pole veel initsialiseerimist toimunud
+infoCommandText2 = Selles sessioonis pole veel salvestusi
+infoCommandText3 = Kogu üksikasjad:
+infoCommandText4 = Tüüp:
+infoCommandText5 = Üksuste arv:
+infoCommandText6 = Viimase salvestamise kuupäev:
+infoCommandText7 = Viimane initsialiseerimise kuupäev:
+shouldCommand = kõigi elementide välja peaks olemaBeExpelled väärtused kahanevas järjekorras:
+uniqueCommand = kogu kollektsiooni üksuse väli groupAdmin ainulaadsed väärtused:
+deleteOK = Grupp on edukalt kustutatud!
+updateOK = Grupp on edukalt uuendatud!
+deletesOK = Kustutatud rühmad:
+signInOK = Autoriseerimine õnnestus!
+signUpOK = Registreerimine õnnestus!
+wrong = Vale kasutajanimi või parool!
+already = See kasutaja on juba sisse logitud!
+alreadyEx = See kasutaja on juba olemas!
+noForm = Kehtetu treeningvorm
+noName = Vale nimi
+noExp = Vale võlgnike arv
+noMark = Kehtetu keskmine skoor
+noCount = Vale õpilaste arv
+noY = Vale Y-koordinaat
+noPass = Passi number vähemalt 8 tähemärki!
+eName = nimi: sisestage string
+eX = X: sisestage topelt
+eY = Y: sisestage topelt
+eCount = Õpilaste arv: sisestage pikk
+eExp = Võlgnikud: sisestage pikk
+eMark = Keskmine skoor: sisestage täisarv
+ePass = Passi number peab olema vähemalt 8 tähemärki
+eXx = Xx: sisestage pikk
+eYy = Yy: sisestage ujuk
+eZz = Zz: sisestage topelt
+eForm = õppevorm: valige
+eCol = Juuksevärv: valige
+eNat = kodakondsus: valige

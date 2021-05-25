@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="1180.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clientModule.controllers.TableWindowController">
+    <children>
+        <Label fx:id="tableLabel" text="Таблица">
+            <font>
+                <Font name="System Bold Italic" size="32.0" />
+            </font>
+         <VBox.margin>
+            <Insets top="10.0" />
+         </VBox.margin>
+        </Label>
+        <HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="357.0" prefWidth="1158.0">
+            <children>
+                <TableView fx:id="table" maxHeight="-Infinity" maxWidth="1200.0" prefHeight="362.0" prefWidth="1158.0">
+                    <columns>
+                        <TableColumn fx:id="idColumn" prefWidth="39.0" text="id" />
+                        <TableColumn fx:id="groupNameColumn" prefWidth="60.0" text="Name" />
+                        <TableColumn prefWidth="36.0" text="X" fx:id="xColumn" />
+                        <TableColumn fx:id="yColumn" prefWidth="34.0" text="Y" />
+                        <TableColumn fx:id="timeColumn" prefWidth="78.0" text="Time" />
+                        <TableColumn fx:id="countColumn" prefWidth="69.0" text="StCount" />
+                        <TableColumn fx:id="expelledColumn" prefWidth="54.0" text="StShBeExpelled" />
+                        <TableColumn fx:id="markColumn" prefWidth="76.0" text="AvMark" />
+                        <TableColumn fx:id="formColumn" prefWidth="141.0" text="FormOfEducation" />
+                        <TableColumn fx:id="personColumn" prefWidth="73.0" text="Admin" />
+                        <TableColumn fx:id="passportColumn" prefWidth="98.0" text="PassportID" />
+                        <TableColumn fx:id="hairColumn" minWidth="0.0" prefWidth="88.0" text="HairColor" />
+                        <TableColumn fx:id="nationalityColumn" minWidth="0.0" prefWidth="110.0" text="Nationality" />
+                  <TableColumn minWidth="0.0" prefWidth="32.0" text="Xx" fx:id="xxColumn" />
+                  <TableColumn fx:id="yyColumn" minWidth="0.0" prefWidth="33.0" text="Yy" />
+                  <TableColumn fx:id="zzColumn" minWidth="0.0" prefWidth="35.0" text="Zz" />
+                  <TableColumn fx:id="locNameColumn" minWidth="0.0" prefWidth="101.0" text="LocName" />
+                  <TableColumn fx:id="userColumn" minWidth="0.0" prefWidth="101.0" text="User" />
+                    </columns>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+                </TableView>
+            </children>
+         <VBox.margin>
+            <Insets left="5.0" right="5.0" />
+         </VBox.margin>
+        </HBox>
+        <HBox alignment="TOP_CENTER" prefHeight="69.0" prefWidth="1180.0" spacing="50.0">
+            <children>
+                <ChoiceBox fx:id="field" prefWidth="150.0" />
+                <Button fx:id="sortButton" mnemonicParsing="false" onAction="#sort" text="Сортировать" />
+                <TextField fx:id="word" prefHeight="31.0" prefWidth="152.0" />
+                <Button fx:id="filterButton" layoutX="347.0" layoutY="10.0" mnemonicParsing="false" onAction="#filter" text="Фильтровать" />
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="67.0" prefWidth="1180.0" spacing="50.0">
+            <children>
+                <Button fx:id="updateButton" mnemonicParsing="false" onAction="#update" text="Обновить выбранную ячейку" />
+                <Button fx:id="showButton" mnemonicParsing="false" onAction="#loadGroups" text="Показать все группы" />
+            </children>
+        </HBox>
+        <Button fx:id="backButton" alignment="TOP_CENTER" mnemonicParsing="false" onAction="#back" prefHeight="39.0" prefWidth="73.0" text="Назад" VBox.vgrow="ALWAYS">
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin></Button>
+    </children>
+</VBox>

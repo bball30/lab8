@@ -1,0 +1,101 @@
+language=Русский
+
+#Start
+groups=Учебные группы
+logInButton=Вход
+registration=Регистрация
+exit=Выход
+vhod=Авторизация
+login=Логин
+password=Пароль
+back=Назад
+register=Зарегистрироваться
+
+#commands
+add=Добавить группу
+history=История
+removeByFormOfEducation=Удалить по форме обучения
+printUniqueAdmin=Уникальные админы
+printShouldBeExpelled=Должники
+table=Таблица
+removeById=Удалить по ID
+clear=Очистить
+info=Информация
+removeLower=Удалить, если меньше
+removeGreater=Удалить, если больше
+executeScript=Выполнить скрипт
+update=Обновить по ID
+visualize=Визуализация
+
+#groupWindow
+nameGroup=Номер группы
+coordinates=Координаты
+group=Группа
+locName=Имя локации
+location=Локация
+nationality=Национальность
+color=Цвет волос
+numberPassport=Номер паспорта
+name=Имя
+admin=Админ
+formOfEducation=Форма обучения
+averageMark=Средняя оценка
+dolgniki=Должники
+studentsCount=Количество студентов
+enter=Ввести
+
+#Table
+sort=Сортировать
+updateTheCell=Обновить выбранную ячейку
+showAllGroups=Показать все группы
+filter=Фильтровать
+
+#Server responses
+incorrectID=Неверный ID
+notYour=Принадлежащие другим пользователям объекты доступны только для чтения!\n
+notFound=Группы с таким ID в коллекции нет!
+empty=Коллекция пуста!
+scriptOK=Скрипт выполнен!
+logOutOK=Выход из аккаунта произведен!
+selectField=Пожалуйста, выберите группу!
+clearOK=Коллекция очищена!
+addOK=Группа успешно добавлена в коллекцию!
+infoCommandText1=в данной сессии инициализации еще не происходило
+infoCommandText2=в данной сессии сохранения еще не происходило
+infoCommandText3=Сведения о коллекции:
+infoCommandText4=Тип: 
+infoCommandText5=Количество элементов: 
+infoCommandText6=Дата последнего сохранения: 
+infoCommandText7=Дата последней инициализации: 
+shouldCommand=Значения поля shouldBeExpelled всех элементов в порядке убывания: 
+uniqueCommand=уникальные значения поля groupAdmin всех элементов в коллекции:
+deleteOK=Группа успешно удалена!
+updateOK=Группа успешно обновлена!
+deletesOK=Удалено групп: 
+signInOK=Авторизация прошла успешно!
+signUpOK=Регистрация прошла успешно!
+wrong=Неправильные имя пользователя или пароль!
+already=Этот пользователь уже авторизован!
+alreadyEx=Этот пользователь уже существует!
+noForm=Некорректная форма обучения
+noName=Некорректное имя
+noExp=Некорректное количество должников
+noMark=Некорректная средняя оценка
+noCount=Некорректное количество студентов
+noY=Некорректная координата Y
+noPass=Номер паспорта не менее 8 символов!
+eName=name: введите String
+eX=X: введите double
+eY=Y: введите double
+eCount=Количество студентов: введите Long
+eExp=Должники: введите Long
+eMark=Средняя оценка: введите Integer
+ePass=Номер паспорта должен не менее 8 символов
+eXx=Xx: введите Long
+eYy=Yy: введите Float
+eZz=Zz: введите Double
+eForm=Форма обучения: выберите
+eCol=Цвет волос: выберите
+eNat=Национальность: выберите
+
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane minHeight="100.0" minWidth="100.0" prefHeight="470.0" prefWidth="745.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clientModule.controllers.CommandsWindowController">
+    <top>
+        <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Button fx:id="userNameButton" mnemonicParsing="false" onAction="#changeUser" prefHeight="31.0" prefWidth="112.0" HBox.hgrow="ALWAYS">
+                    <HBox.margin>
+                        <Insets bottom="15.0" right="15.0" top="15.0" />
+                    </HBox.margin>
+                </Button>
+                <Region maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="54.0" prefWidth="279.0" HBox.hgrow="ALWAYS" />
+                <ChoiceBox fx:id="language" prefWidth="150.0" HBox.hgrow="ALWAYS">
+                    <HBox.margin>
+                        <Insets left="15.0" top="15.0" />
+                    </HBox.margin>
+                </ChoiceBox>
+            </children>
+        </HBox>
+    </top>
+    <bottom>
+        <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exit" text="Выход" BorderPane.alignment="CENTER" />
+    </bottom>
+    <center>
+        <VBox prefHeight="537.0" prefWidth="632.0" BorderPane.alignment="CENTER">
+            <children>
+                <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                    <children>
+                        <Button fx:id="addButton" mnemonicParsing="false" onAction="#add" text="Добавить" />
+                        <Button fx:id="updateButton" mnemonicParsing="false" onAction="#update" text="Обновить по id" />
+                        <Button fx:id="removeByIdButton" mnemonicParsing="false" onAction="#removeById" text="Удалить по id" />
+                    </children>
+                </HBox>
+                <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="15.0">
+                    <children>
+                        <Button fx:id="removeLowerButton" mnemonicParsing="false" onAction="#removeLower" text="Удалить если меньше" />
+                        <Button fx:id="removeGreaterButton" mnemonicParsing="false" onAction="#removeGreater" text="Удалить если больше" />
+                        <Button fx:id="clearButton" mnemonicParsing="false" onAction="#clear" text="Очистить" />
+                    </children>
+                </HBox>
+                <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+                    <children>
+                        <Button fx:id="removeByFormOfEducationButton" mnemonicParsing="false" onAction="#removeByFormOfEducation" text="Удалить по форме обучения" />
+                        <Button fx:id="historyButton" mnemonicParsing="false" onAction="#history" text="История" />
+                        <Button fx:id="infoButton" mnemonicParsing="false" onAction="#info" text="Информация" />
+                    </children>
+                </HBox>
+                <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+                    <children>
+                        <Button fx:id="uniqueAdminButton" mnemonicParsing="false" onAction="#uniqueAdmin" text="Уникальные админы групп" />
+                        <Button fx:id="printShouldBeExpelledButton" mnemonicParsing="false" onAction="#printShouldBeExpelled" text="Количество должников у групп" />
+                    </children>
+                </HBox>
+                <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
+                    <children>
+                        <Button fx:id="scriptButton" mnemonicParsing="false" onAction="#executeScript" text="Исполнить скрипт" />
+                        <Button fx:id="tableButton" mnemonicParsing="false" onAction="#openTable" text="Таблица" />
+                        <Button fx:id="visualizationButton" mnemonicParsing="false" onAction="#visualize" text="Визуализация" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>

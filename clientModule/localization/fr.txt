@@ -1,0 +1,99 @@
+language = Français
+
+#Start
+groups = Groupes d'études
+logInButton = Connexion
+registration = Inscription
+exit = Quitter
+vhod = Autorisation
+login = Connexion
+password = Mot de passe
+back = Retour
+register = S'inscrire
+
+#commands
+add = Ajouter un groupe
+history = Histoire
+removeByFormOfEducation = Supprimer par formulaire d'éducation
+printUniqueAdmin = Administrateurs uniques
+printShouldBeExpelled = Débiteurs
+table = Table
+removeById = Supprimer par ID
+clear = Effacer
+info = Information
+removeLower = Supprimer si moins
+removeGreater = Supprimer si plus
+executeScript = Exécuter le script
+update = Mettre à jour par ID
+visualize = Visualisation
+
+#groupWindow
+nameGroup = Numéro de groupe
+coordonnées = Coordonnées
+group = Groupe
+locName = Nom de l'emplacement
+location = Emplacement
+nationality = Nationalité
+color = couleur des cheveux
+numberPassport = Numéro de passeport
+name = Nom
+admin = Admin
+formOfEducation = Forme d'éducation
+averageMark = Note moyenne
+dolgniki = débiteurs
+studentsCount = Nombre d'étudiants
+enter = Entrer
+
+#Table
+sort = Trier
+updateTheCell = Mettre à jour la cellule sélectionnée
+showAllGroups = Afficher tous les groupes
+filter = Filtre
+
+#Server responses
+incorrectID = ID invalide
+notYour = Les objets appartenant à d'autres utilisateurs sont en lecture seule! \ n
+notFound = Il n'y a pas de groupe avec cet ID dans la collection!
+empty = La collection est vide!
+scriptOK = Script terminé!
+logOutOK = Déconnecté!
+selectField = Veuillez sélectionner un groupe!
+clearOK = La collection a été effacée!
+addOK = Le groupe a été ajouté avec succès à la collection!
+infoCommandText1 = aucune initialisation n'a encore eu lieu dans cette session
+infoCommandText2 = Aucune sauvegarde n'a encore eu lieu dans cette session
+infoCommandText3 = Détails de la collection:
+infoCommandText4 = Tapez:
+infoCommandText5 = Nombre d'éléments:
+infoCommandText6 = Date de la dernière sauvegarde:
+infoCommandText7 = Date de la dernière initialisation:
+shouldCommand = Valeurs du champ shouldBeExpelled de tous les éléments dans l'ordre décroissant:
+uniqueCommand = valeurs uniques pour le champ groupAdmin de tous les éléments de la collection:
+deleteOK = Groupe supprimé avec succès!
+updateOK = Le groupe a été mis à jour avec succès!
+deletesOK = Groupes supprimés:
+signInOK = L'autorisation a réussi!
+signUpOK = L'enregistrement a réussi!
+wrong = nom d'utilisateur ou mot de passe incorrect!
+already = Cet utilisateur est déjà connecté!
+alreadyEx = Cet utilisateur existe déjà!
+noForm = Formulaire de formation invalide
+noName = Nom invalide
+noExp = Nombre incorrect de débiteurs
+noMark = Score moyen invalide
+noCount = Nombre d'étudiants invalide
+noY = coordonnée Y invalide
+noPass = numéro de passeport d'au moins 8 caractères!
+eName = nom: entrez la chaîne
+eX = X: entrez double
+eY = Y: entrez double
+eCount = Nombre d'étudiants: entrez Long
+eExp = Debtors: entrez Long
+eMark = Score moyen: entrez un entier
+ePass = Le numéro de passeport doit comporter au moins 8 caractères
+eXx = Xx: entrez Long
+eYy = Yy: entrez Float
+eZz = Zz: entrez Double
+eForm = Forme d'étude: sélectionnez
+eCol = Couleur des cheveux: sélectionnez
+eNat = Nationalité: sélectionnez
