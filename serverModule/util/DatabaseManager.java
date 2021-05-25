@@ -62,13 +62,11 @@ public class DatabaseManager {
         System.out.println("Подключение к базе данных...");
         while (true) {
             System.out.println("Введите логин:");
-            this.user = "s311711";
-            //this.user = scanner.nextLine();
+            this.user = scanner.nextLine();
             System.out.println("Введите пароль:");
             if (console == null) {
                 System.out.println("В идее консоль не видна, поэтому пиши пароль в открытую:");
-                this.password = "zwz536";
-                //this.password = scanner.nextLine();
+                this.password = scanner.nextLine();
             } else {
                 this.password = String.valueOf(console.readPassword());
             }
